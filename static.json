@@ -1,0 +1,11 @@
+{
+  "build": {
+    "env": {
+      "NIXPACKS_ENV": "static"
+    }
+  },
+  "static": {
+    "directory": ".",
+    "error_page": "index.html"
+  }
+}
