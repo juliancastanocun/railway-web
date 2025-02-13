@@ -1,7 +1,8 @@
 services:
   - type: web
     name: render-web
-    env: static
+    runtime: static
+    repo: https://github.com/juliancastanocun/railway-web # Reemplaza con tu usuario/repositorio real
     staticPublishPath: .
     routes:
       - type: rewrite
